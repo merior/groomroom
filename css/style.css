@@ -1,0 +1,99 @@
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+}
+
+body {
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.txt {
+  margin: 0;
+  font-family: 'Ruslan Display', cursive;
+  color: white;
+}
+
+.text-mar {
+  margin: 0;
+}
+
+.button {
+  padding: 12px 15px 12px 20px;
+  border-style: none;
+}
+
+.header {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  display: flex;
+  align-items: center;
+}
+
+.header__name {
+  margin-left: 20px;
+  color: #503901;
+  font-size: 40px;
+}
+
+.logo__img {
+  width: 100px;
+  height: 100px;
+}
+
+.user__img {
+  width: 60px;
+  height: 60px;
+}
+
+.promo {
+  padding-top: 265px;
+  padding-bottom: 250px;
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(0deg, rgba(218, 165, 32, 0.5), rgba(218, 165, 32, 0.5)), url("../img/promo.png") no-repeat center/cover;
+}
+
+.promo__img {
+  width: 800px;
+}
+
+.promo__tittle {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin: auto;
+  color: #fff;
+  font-size: 65px;
+  max-width: 991px;
+  width: 100%;
+}
+
+.promo__buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+}
+
+.promo__button {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+}
+
+.promo__button-first {
+  background: #D49E14;
+  color: white;
+  margin-right: 40px;
+}
+
+.promo__button-second {
+  color: #503901;
+}
+/*# sourceMappingURL=style.css.map */
