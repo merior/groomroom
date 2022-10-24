@@ -192,6 +192,7 @@ body {
   margin-top: 30px;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .count {
@@ -225,5 +226,24 @@ body {
   width: 50px;
   height: 50px;
   margin-left: 25px;
+}
+
+@media screen and (max-width: 375px) {
+  .information {
+    flex-direction: column;
+  }
+  .header__name {
+    display: none;
+  }
+  .info__texts {
+    margin: 0;
+  }
+  .info__txt {
+    max-width: 375px;
+    width: 100%;
+  }
+  .info__txt-none {
+    display: none;
+  }
 }
 /*# sourceMappingURL=style.css.map */
